@@ -1,0 +1,2 @@
+# Distributed-Multi-Threaded-File-Server-with-Synchronization
+ A Multithreaded File Server implemented using Message-oriented Client-Server communication. The file server supports four basic operations: UPLOAD, DOWNLOAD, DELETE, and RENAME. Additionally, Synchronization was implemented ie. whenever changes are made to the synchronized folder at the client side, the helper thread will establish a connection with the server and automatically send the corresponding operation to the server to update the folder at the server side.
